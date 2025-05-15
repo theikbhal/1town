@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Cities (100k - 1M Population)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Indian Cities (100k - 1M Population)</h1>
+        <div class="filters">
+            <label for="stateFilter">State:</label>
+            <select id="stateFilter">
+                <option value="">All</option>
+            </select>
+            <label for="minPop">Min Population:</label>
+            <input type="number" id="minPop" placeholder="100000" min="100000" max="1000000">
+            <label for="maxPop">Max Population:</label>
+            <input type="number" id="maxPop" placeholder="1000000" min="100000" max="1000000">
+            <button id="applyFilters">Apply</button>
+        </div>
+        <div class="table-responsive">
+            <table id="citiesTable">
+                <thead>
+                    <tr>
+                        <th class="sortable" data-col="city">City <span class="sort-indicator"></span></th>
+                        <th class="sortable" data-col="pop2011">Population (2011) <span class="sort-indicator"></span></th>
+                        <th class="sortable" data-col="state">State/UT <span class="sort-indicator"></span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="cities.js"></script>
+</body>
+</html> 

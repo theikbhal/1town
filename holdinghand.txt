@@ -1,0 +1,7 @@
+1)type 300 cities of town names , popuplation , state
+manaullay
+see the name at the top
+https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population#External_links
+---
+
+2) quiz on the city name, state; population range atleast around lakh level 
